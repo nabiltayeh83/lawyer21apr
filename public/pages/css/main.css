@@ -1,0 +1,965 @@
+a {
+	cursor: pointer
+}
+
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+textarea {
+	height: 120px !important
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.height80 {
+	height: 50px !important
+}
+
+.horizontal-app-menu .menu-bar > ul > li {
+	margin: 0 10px;
+}
+
+.boxAttachment {
+	display: flex;
+	margin-bottom: 12px
+}
+
+.boxAttachment .boxAttach:nth-child(1) {
+	width: 55%
+}
+
+.boxAttachment .boxAttach:nth-child(2) {
+	width: 20%
+}
+
+.boxAttachment .boxAttach:nth-child(3) {
+	width: 20%
+}
+
+.boxAttachment .boxAttach:nth-child(4) {
+	width: 5%
+}
+
+.form-group-default {
+    position: initial;
+}
+
+.divAttachments {
+	height: 380px;
+	overflow: auto
+}
+
+.sectionAttachments {
+	padding-bottom: 50px !important
+}
+
+.tasks-widget {
+	padding-bottom: 50px
+}
+
+.inline:nth-child(3) .search-link i {
+	font-size: 28px;
+}
+
+.secConsultation {
+	display: none
+}
+
+.companyDetails {
+	display: none;
+}
+
+.secOther {
+	display: none
+}
+
+.fieldCase {
+	height: 55px
+}
+
+.modal-open .select2-container {
+	z-index: 1050 !important;
+}
+
+.secOptionField {
+	margin-bottom: 0;
+	padding: 30px 0 10px;
+}
+
+.secOptionField > p {
+	display: inline-block;
+	font-weight: bold
+}
+
+.toggle-button-cover {
+	position: relative
+}
+
+#formCalendar {
+	margin-bottom: 50px
+}
+
+.secOptionField .button-cover,
+.knobs,
+.layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.secOptionField .button {
+	position: relative;
+	top: -35px;
+	right: 250px;
+	width: 74px;
+	height: 36px;
+	display: inline-block;
+}
+
+.secOptionField .button.r,
+.button.r .layer {
+	border-radius: 100px;
+}
+
+.secOptionField .button.b2 {
+	border-radius: 2px;
+}
+
+.secOptionField .checkbox {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.secOptionField .knobs {
+	z-index: 2;
+}
+
+.secOptionField .layer {
+	width: 100%;
+	background-color: #ebf7fc;
+	transition: 0.3s ease all;
+	z-index: 1;
+}
+
+.dashboard-statistics h3 b {
+    font-size: 23px;
+    margin-left: 8px;
+}
+
+#button-1 .knobs:before {
+	content: 'نعم';
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	background-color: #05bd05;
+	border-radius: 50%;
+	transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before {
+	content: 'لا';
+	left: 42px;
+	background-color: #f44336;
+}
+
+#button-1 .checkbox:checked ~ .layer {
+	background-color: #fcebeb;
+}
+
+#button-1 .knobs,
+#button-1 .knobs:before,
+#button-1 .layer {
+	transition: 0.3s ease all;
+}
+
+.cursorNODrop {
+	cursor: no-drop !important;
+	opacity: .7;
+}
+
+.addDash {
+	padding: 0 !important;
+	opacity: 1 !important;
+}
+
+.headBoxAttachment {
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 0;
+}
+
+.headBoxAttachment p {
+	margin-bottom: 0;
+	font-weight: bold
+}
+
+.note-item .note-title {
+	margin-bottom: 10px
+}
+
+.boxAttach i {
+	color: #909090
+}
+
+.control-label {
+	position: relative
+}
+
+.iconHelp {
+	position: absolute;
+	margin-right: 10px;
+	font-size: 22px;
+	z-index: 1051;
+	font-size: 17px;
+	margin-top: 3px;
+}
+
+.toolHelp {
+	position: absolute;
+	background: #5a5a5a;
+	color: #fff;
+	padding: 5px;
+	right: 30px;
+	top: -5px;
+	border-radius: 5px;
+	font-size: 10px !important;
+	font-family: cairo;
+	display: none;
+	-webkit-transition: all 3s ease-out;
+	-moz-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	-ms-transition: all 3s ease-out;
+	transition: all 3s ease-out;
+}
+
+.toolHelp:after {
+	top: 4px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #5a5a5a;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	z-index: -1;
+	-ms-transform: translateX(16%) rotate(0deg);
+	-webkit-transform: translateX(16%) rotate(0deg);
+	transform: translateX(16%) rotate(0deg);
+}
+
+.iconHelp:hover .toolHelp {
+	display: block
+}
+
+.downloadPDF .toolHelp {
+	position: absolute;
+	background: #5a5a5a;
+	color: #fff;
+	padding: 5px;
+	right: 55px;
+	top: 10px;
+	display: block;
+	border-radius: 5px;
+	font-size: 10px !important;
+	font-family: cairo;
+	display: none;
+	-webkit-transition: all 3s ease-out;
+	-moz-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	-ms-transition: all 3s ease-out;
+	transition: all 3s ease-out;
+}
+
+.downloadPDF .toolHelp:after {
+	top: 8px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #5a5a5a;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-top-width: 7px;
+	border-right-width: 7px;
+	border-bottom-width: 7px;
+	border-left-width: 7px;
+	z-index: 0;
+	-ms-transform: translateX(515%) rotate(0deg);
+	-webkit-transform: translateX(515%) rotate(0deg);
+	transform: translateX(515%) rotate(0deg);
+}
+
+.downloadPDF i {
+	cursor: pointer
+}
+
+.downloadPDF:hover .toolHelp {
+	display: block
+}
+
+.typeClients {
+	position: relative
+}
+
+.typeClients i {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	right: 15px
+}
+
+.typeClients span {
+	margin-right: 25px
+}
+
+.input-group-append button,
+.input-group-append button:hover,
+.input-group-append button:focus {
+	border-right: 0;
+	border-radius: 0;
+	line-height: 1;
+	height: 38px;
+}
+
+.has-search .form-control {
+	padding-left: 2.375rem;
+}
+
+.input-group {
+	margin-left: 20px;
+	height: 38px;
+}
+
+.input-group input {
+	height: 38px
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	text-align: center;
+	pointer-events: none;
+	color: #aaa;
+}
+
+.input-group .form-control:focus {
+	border-color: rgb(232, 233, 234);
+	background-color: #fdfdfd;
+	outline: 0 !important;
+	box-shadow: none;
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+	box-shadow: none;
+	border-color: #e8e9ea;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+	box-shadow: none;
+	border-color: #e8e9ea;
+	color: #2c2d2f;
+	background-color: #e8e9ea;
+}
+
+#modalAddTask .form-group label:not(.error) {
+	font-size: 10.5px;
+}
+
+#feesTypeOne,
+#feesTypeTwo {
+	display: none
+}
+
+.secDataProject strong,
+.secDataProject span,
+.secDataProject a {
+	display: block;
+	position: relative;
+	margin-right: 15px
+}
+
+.secDataProject strong:before {
+	content: "";
+	display: inline-block;
+	margin-left: 10px;
+	background: #f9a21b;
+	width: 10px;
+	position: absolute;
+	right: -17px;
+	top: 10px;
+	height: 2px;
+}
+
+.m-l5 {
+	margin-left: 5px
+}
+
+#NumberofHoursOne {
+	display: none
+}
+
+.AddExpensesServices {
+	background: #f9a21b;
+	padding: 5px 8px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.sectionExpensesServices .boxAttachment .boxAttach:nth-child(1) {
+	width: 12%;
+}
+
+.sectionExpensesServices .boxAttachment .boxAttach:nth-child(2) {
+	width: 35%;
+}
+
+.sectionExpensesServices .boxAttachment .boxAttach:nth-child(3) {
+	width: 35%;
+}
+
+.sectionExpensesServices .boxAttachment .boxAttach:nth-child(4) {
+	width: 10%;
+}
+
+.sectionExpensesServices .boxAttachment .boxAttach:nth-child(5) {
+	width: 8%;
+	text-align: center
+}
+
+#NumberofClientOne,
+#NumberofProjectOne {
+	display: none
+}
+
+.boxExpenseClients {
+	margin-top: -75px
+}
+
+.boxProjectClients {
+	margin-top: 30px
+}
+
+.boxExpenseClients h5 {
+	margin-bottom: 37px
+}
+
+.headExpenseClients,
+.secExpenseClients {
+	display: flex
+}
+
+.headExpenseClients p:nth-child(1),
+.secExpenseClients p:nth-child(1) {
+	width: 60%;
+	padding: 10px 10px 0
+}
+
+.headExpenseClients p:nth-child(2),
+.secExpenseClients p:nth-child(2) {
+	width: 20%;
+	text-align: center;
+}
+
+.headExpenseClients p:nth-child(2),
+.headExpenseClients p:nth-child(3) {
+	padding: 10px 10px 0
+}
+
+.headExpenseClients p:nth-child(3),
+.secExpenseClients p:nth-child(3) {
+	width: 20%;
+	text-align: center;
+}
+
+.secExpenseClients p {
+	padding: 10px 0;
+	margin-bottom: 0;
+	border: 1px solid #f5f6f7;
+	border-top: 0
+}
+
+.secExpenseClients p:nth-child(2) {
+	border-right: 0;
+	border-left: 0
+}
+
+.headExpenseClients {
+	background: #f5f6f7
+}
+
+.filter {
+	margin-left: 20px !important;
+	cursor: pointer;
+}
+
+.buttonAdd {
+	height: 54px;
+	background-color: #fab549;
+	border-color: #fab549;
+	color: #fff !important;
+	display: block;
+	text-align: center;
+	border-radius: 2px;
+	padding: 6px 0;
+}
+
+.buttonAdd * {
+	display: block
+}
+
+.buttonAdd i {
+	font-size: 20px;
+}
+
+.buttonAdd span {
+	font-size: 13px
+}
+
+.form-group-default {
+	z-index: 0;
+}
+
+#rateHours {
+	display: none
+}
+
+.typeHours {
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.typeDocument {
+	position: relative
+}
+
+.typeDocument i {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	right: 15px;
+	width: 20px;
+	height: 50px
+}
+
+.typeDocument a {
+	margin-right: 20px;
+	display: block
+}
+
+#modalAddDocument .uploadFileRequest,
+#modalAddFolder .uploadFileRequest {
+	height: 55px;
+	margin-bottom: 20px
+}
+
+#typeNoti {
+	display: none
+}
+
+.buttonTypeTask {
+	padding: 5px 15px;
+	height: 38px;
+	border-radius: 3px
+}
+
+.optionAdd {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 28px;
+	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+	padding: 0;
+	padding: 4px;
+	position: relative;
+
+}
+
+.table tbody tr td {
+	background: #fff;
+	border-bottom: 1px solid rgba(225, 225, 226, 0.7);
+	border-top: 0px;
+	padding: 9px 20px;
+	font-size: 13.5px;
+	position: relative
+}
+
+.toolTip {
+	background: #000;
+	color: #fff;
+	position: absolute;
+	bottom: 15px;
+	left: 5px;
+	padding: 5px;
+	z-index: 9;
+	border-radius: 5px;
+	opacity: 0;
+	transition: .5s
+}
+
+.addpayment:hover .toolTip {
+	opacity: 1
+}
+
+
+#Discount {
+	display: none
+}
+
+#boxDataProject {
+	display: none
+}
+
+#dataProject h6 {
+	background: #f5f6f7;
+	padding: 10px;
+	margin-top: -5px;
+	margin-bottom: 15px
+}
+
+#boxComplete {
+	display: none
+}
+
+.tab-pane .btn.has-icon i {
+	margin-left: 0;
+}
+
+.optionAddHours {
+	position: relative
+}
+
+.optionAddHours .note-options {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	float: right;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+	position: initial;
+	margin: 2px;
+	height: 25px;
+	display: flex;
+	font-size: 18px;
+	width: 25px;
+	line-height: 25px;
+	z-index: 1;
+	-webkit-transition: .5s all;
+	transition: .5s all;
+	text-align: center;
+	padding: initial;
+	opacity: 1
+}
+
+.optionAddHours .note-options i {
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	margin: auto
+}
+
+.optionAddHours a i {
+	font-size: 15px !important;
+	text-align: center;
+	margin: auto
+}
+
+.optionAddHours a .editTask {
+	font-size: 15px !important;
+}
+
+.cs-select {
+	z-index: 999 !important;
+    border: 1px solid #e8e9ea;
+}
+
+.dashboardProject .nav-tabs ~ .tab-content {
+	overflow: initial;
+	padding: 15px;
+}
+
+.dashboardProject .btn-group {
+	position: absolute;
+	left: 0px;
+	top: -58px;
+}
+
+.optionAddHours .toolTip {
+	position: absolute;
+	background: #5a5a5a;
+	color: #fff;
+	padding: 5px;
+	right: -10px;
+	top: 45px;
+	text-align: center;
+	opacity: 1;
+	display: none;
+	width: 90px;
+	height: 80px;
+	line-height: 20px;
+	border-radius: 5px;
+	font-size: 10px !important;
+	font-family: cairo;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+.optionAddHours .toolTip a {
+	display: flex;
+	color: #fff;
+	text-align: right;
+	align-items: center;
+	margin-bottom: 5px
+}
+
+.optionAddHours .toolTip a i {
+	font-size: 15px;
+	margin-left: 5px
+}
+
+.optionAddHours .toolTip:after {
+	top: -12px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #5a5a5a;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-top-width: 7px;
+	border-right-width: 7px;
+	border-bottom-width: 7px;
+	border-left-width: 7px;
+	z-index: 0;
+	-ms-transform: translateX(245%) rotate(-90deg);
+	-webkit-transform: translateX(245%) rotate(-90deg);
+	transform: translateX(40%) rotate(-90deg);
+}
+
+.form-group-default {
+	overflow: unset;
+}
+
+#feesTypeOneConsultation,
+#feesTypeTwoConsultation {
+	display: none
+}
+
+#typeNotiModal {
+	display: none
+}
+
+.viewAllClients > a {
+    font-size:15px;
+}
+
+.addBill .note-options i {
+	font-size: 20px !important
+}
+
+.showDitails {
+	font-size: 15px !important
+}
+
+.pull-left {
+	float: left !important
+}
+
+.digest {
+	margin-top: -70px;
+}
+
+.digest h5 {
+	margin-bottom: 30px
+}
+
+.allBoxSettings {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.boxSettings {
+	text-align: center;
+	width: 20%;
+	height: 200px;
+	padding: 10px;
+}
+
+.boxSettings a {
+	background: #fff;
+	padding-top: 40px;
+	display: block;
+	height: 100%;
+	width: 100%
+}
+
+.boxSettings a img {
+	height: 60px;
+}
+
+.avatar-upload {
+	position: relative;
+	max-width: 205px;
+	margin: 50px auto;
+}
+
+.avatar-upload .avatar-edit {
+	position: absolute;
+	right: 12px;
+	z-index: 1;
+	top: 10px;
+}
+
+.avatar-upload .avatar-edit input {
+	display: none;
+}
+
+.avatar-upload .avatar-edit input + label {
+	width: 34px;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	align-items: center;
+	height: 34px;
+	margin-bottom: 0;
+	border-radius: 100%;
+	background: #FFFFFF;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+	font-weight: normal;
+	transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input + label i {
+	font-size: 18px;
+	display: block;
+	margin: auto;
+}
+
+.avatar-upload .avatar-edit input + label:hover {
+	background: #f1f1f1;
+	border-color: #d6d6d6;
+}
+
+.avatar-upload .avatar-preview {
+	width: 192px;
+	height: 192px;
+	position: relative;
+	border-radius: 100%;
+	border: 6px solid #F8F8F8;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview > div {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.modal.fade.fill-in.show {
+	background-color: #ffffff;
+}
+
+#previwPDF .modal-dialog {
+	width: 100%;
+	max-width: 100%
+}
+
+.form-group-default.form-group-default-select2 .select2-container .select2-selection--multiple {
+	padding-top: 19px;
+	padding-bottom: 0;
+	height: auto;
+	border: 0px;
+}
+#invoiceDiscount {
+    display:none;
+}
+.card-body .radio, .card-body .checkbox {
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 0px;
+}
+.modal .radio, .modal .checkbox {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.table-responsive .radio, .table-responsive  .checkbox {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    z-index: 9999 !important;
+}
+@media screen and (max-width: 767px) {
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-group {
+        width: 59%;
+    }
+    .filter {
+        margin-left:0 !important;
+        margin-bottom: 20px;
+    }
+    .filterTabClients {
+        margin-bottom: 20px;
+    }
+}
+

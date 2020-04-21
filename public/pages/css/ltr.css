@@ -1,0 +1,149 @@
+body {
+    direction:ltr;
+    text-align:left;
+}
+.horizontal-app-menu .header .header-inner .brand.inline {
+    padding-right: 15px;
+    padding-left: initial;
+}
+.social-card.share .card-header .user-pic {
+    margin-right: 10px;
+    margin-left: initial;
+}
+.dashboard-statistics h3 b {
+    margin-right: 8px;
+    margin-left: initial;
+}
+.note-options {
+    right:15px;
+    left:auto;
+}
+.ml-lg-3, .mx-lg-3 {
+    margin-right: 1rem!important;
+    margin-left: initial;
+}
+.p-r-20 {
+    padding-left: 20px !important;
+    padding-right: initial;
+}
+.btn.has-icon i {
+    margin-left: auto;
+    margin-right: 6px;
+}
+.btn.has-icon i {
+    margin-left: auto;
+    margin-right: 6px;
+}
+.input-group {
+    margin-right: 20px;
+    margin-left: auto;
+}
+.filter {
+    margin-right: 20px !important;
+    margin-left: auto;
+}
+.input-group-append button, .input-group-append button:hover, .input-group-append button:focus {
+    border-right: 1px solid #e8e9ea;
+}
+.breadcrumb > .breadcrumb-item + .breadcrumb-item:before {
+    content: "keyboard_arrow_right";
+}
+.paginate_button .material-icons {
+    transform: rotate(180deg);
+}
+.form-group-default.required:after {
+    right:15px;
+    left:auto;
+}
+.select2-container .select2-selection .select2-selection__arrow {
+    right:10px !important;
+    left:auto !important;
+}
+.select2-container .scroll-wrapper > .scroll-element.scroll-y {
+    right: 0;
+    left: auto;
+}
+.radio label, .checkbox label {
+    padding-left: 25px;
+    margin-right: 15px;
+    margin-left: 0;
+    padding-right: initial;
+}
+.radio label:before, .checkbox label:before {
+    margin-right: 10px;
+    left: 0px;
+    margin-left: auto;
+    right: auto;
+}
+form .row:not(.default-first-last-padding) [class*='col-']:first-child {
+    padding-left: 0;
+    padding-right: 7px;
+}
+form .row:not(.default-first-last-padding) [class*='col-']:last-child {
+    padding-right: 0;
+    padding-left: 7px;
+}
+.pl-md-0, .px-md-0 {
+    padding-right: 0 !important;
+    padding-left: 7px !important;
+}
+.btn-group > .btn:first-child {
+    border-radius:0px !important;
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    border-right: 0;
+}
+.btn-group > .btn:last-child {
+    border-radius:0px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+.btn-group a .btn {
+    border-radius:0px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+.secDataProject strong, .secDataProject span, .secDataProject a {
+    margin-right:auto;
+    margin-left: 15px;
+}
+.secDataProject strong:before {
+    margin-right: 10px;
+    margin-left:auto;
+    left: -17px;
+    right: auto;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after, 
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    left:8px;
+    right:auto;
+}
+table.dataTable thead>tr>th.sorting_asc,
+table.dataTable thead>tr>th.sorting_desc,
+table.dataTable thead>tr>th.sorting,
+table.dataTable thead>tr>td.sorting_asc,
+table.dataTable thead>tr>td.sorting_desc,
+table.dataTable thead>tr>td.sorting {
+    padding-left: 30px;
+    padding-right: initial;
+}
+.optionAddHours .note-options {
+    float:left;
+}
+.notification-toggle {
+    right:0!important;
+    left:auto!important;
+}
+.notification-toggle {
+    transform: translate3d(50px, 32px, 0px) !important;
+}
+.dashboardProject .btn-group {
+    right: 0px;
+    left: auto;
+}
+.add-dropdown {
+    transform: translate3d(0, 60px, 0px) !important;
+}
